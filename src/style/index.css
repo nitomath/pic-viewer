@@ -1,0 +1,15 @@
+::-webkit-scrollbar {
+    display: none;
+}
+
+.resizeimage {
+    text-align: center;
+}
+
+.resizeimage img {
+    height: 100vh;
+}
+
+body {
+    margin: 0px;
+}

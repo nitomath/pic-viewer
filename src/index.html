@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Pic Viewer</title>
+    <!-- https://electronjs.org/docs/tutorial/security#csp-meta-tag -->
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline';" />
+    <link rel="stylesheet" type="text/css" href="./style/index.css">
+  </head>
+  <body>
+    <button id="showPicInFolderButton">ShowPicInFolder</button>
+    <button id="showPicFileButton">ShowPicFile</button>
+    <div class='resizeimage'>
+      <img id="viewer" src=""></img>
+    </div>
+    <script src="./scripts/index.js"></script>
+  </body>
+</html>
